@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main () {
+    int factorial = 1;
+    int n, original;
+    cout << "Enter a number: ";
+    cin >> n;
+
+    original = n;
+
+    while (n > 1){
+        factorial *= n;
+        n--;
+    }
+
+    cout << "Factorial of " << original << " is " << factorial;
+    return 0;
+}
