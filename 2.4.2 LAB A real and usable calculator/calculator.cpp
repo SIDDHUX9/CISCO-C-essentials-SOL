@@ -6,7 +6,7 @@ int main()
         int n;
     int choice;
         int b;
-    cout << "enter 1st number";
+    cout << "enter 1st number - ";
     cin >> a;
 
     cout << "\nMENU:\n";
@@ -21,7 +21,7 @@ int main()
 
     n= choice;
 
-    cout << "enter 2nd number";
+    cout << "enter 2nd number - ";
     cin >> b;
     switch (choice)
     {
